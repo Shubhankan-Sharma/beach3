@@ -16,6 +16,7 @@ def generate_beach_data(location_name):
         "location": location_name,
         "data": {
             "timestamp": datetime.now().isoformat(),
+            "location": location_name,
             "temperature": random.uniform(20.0, 30.0),
             "currentspeed": random.uniform(0.5, 3.0),
             "ph": round(random.uniform(6.5, 7.5), 2),
